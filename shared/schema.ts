@@ -1,18 +1,21 @@
-import { sql } from "drizzle-orm";
-import { pgTable, text, varchar } from "drizzle-orm/pg-core";
+import { pgTable, text, serial, timestamp } from "drizzle-orm/pg-core";
 import { createInsertSchema } from "drizzle-zod";
 import { z } from "zod";
 
-export const users = pgTable("users", {
-  id: varchar("id").primaryKey().default(sql`gen_random_uuid()`),
-  username: text("username").notNull().unique(),
-  password: text("password").notNull(),
+export const lockers = pgTable("lockers", {
+  id: serial("id").primaryKey(),
+  tokenAddress: text("token_address").notNull(),
+  tokenName: text("token_name").notNull(),
+  amount: text("amount").notNull(),
+  unlockDate: timestamp("unlock_date").notNull(),
+  ownerAddress: text("owner_address").notNull(),
+  createdAt: timestamp("created_at").defaultNow(),
 });
 
-export const insertUserSchema = createInsertSchema(users).pick({
-  username: true,
-  password: true,
+export const insertLockerSchema = createInsertSchema(lockers).omit({ 
+  id: true, 
+  createdAt: true 
 });
 
-export type InsertUser = z.infer<typeof insertUserSchema>;
-export type User = typeof users.$inferSelect;
+export type Locker = typeof lockers.$inferSelect;
+export type InsertLocker = z.infer<typeof insertLockerSchema>;
