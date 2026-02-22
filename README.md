@@ -15,6 +15,7 @@ Intercom LP Locker is a secure, decentralized application (dApp) designed to pro
 <div align="center">
   <img src="https://pin.it/7aGG3U21v" alt="App Screenshot" width="800">
   <p><i>Secure and Transparent Token Locking Dashboard</i></p>
+  <a href="https://pin.it/7aGG3U21v">View images</a>
   <img href="https://pin.it/3gLjYm36f" alt="App Screenshot" width="800">
 </div>
 
@@ -32,3 +33,5 @@ Intercom LP Locker is a secure, decentralized application (dApp) designed to pro
 3. Set up your environment variables (DATABASE_URL)
 4. Push the schema: `npm run db:push`
 5. Start the development server: `npm run dev`
+
+   
