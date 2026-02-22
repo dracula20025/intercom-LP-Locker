@@ -13,8 +13,9 @@ Intercom LP Locker is a secure, decentralized application (dApp) designed to pro
 ## Overview
 
 <div align="center">
-  <img src="Screenshot_20260222_005222_Chrome.jpg" alt="App Screenshot" width="800">
+  <img src="https://pin.it/7aGG3U21v" alt="App Screenshot" width="800">
   <p><i>Secure and Transparent Token Locking Dashboard</i></p>
+  <img src="https://pin.it/3gLjYm36f" alt="App Screenshot" width="800">
 </div>
 
 ## Technical Stack
