@@ -9,13 +9,13 @@ Intercom LP Locker is a secure, decentralized application (dApp) designed to pro
 - **Transparency**: A public dashboard to view all active locks, including token details, amounts, and unlock schedules.
 - **Security**: Built using industry-standard patterns to ensure asset safety.
 
-## Trac Wallet address: trac1cufya0jmmtst7l8zzymvgsyn7hd6acym4m8venz36pcl0ryjgk4s3q00gw
+## Trac Wallet address: <i>trac1cufya0jmmtst7l8zzymvgsyn7hd6acym4m8venz36pcl0ryjgk4s3q00gw</i>
 ## Overview
 
 <div align="center">
   <img src="https://pin.it/7aGG3U21v" alt="App Screenshot" width="800">
   <p><i>Secure and Transparent Token Locking Dashboard</i></p>
-  <img src="https://pin.it/3gLjYm36f" alt="App Screenshot" width="800">
+  <img href="https://pin.it/3gLjYm36f" alt="App Screenshot" width="800">
 </div>
 
 ## Technical Stack
